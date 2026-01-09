@@ -20,8 +20,9 @@
     --menu-text-weight: 500;
 }
 
-body, img, h1, p, fieldset, legend, label, input, textarea, select, button {
+body, img, h1, p, fieldset, legend, label, input, textarea, select, button, ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
