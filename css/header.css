@@ -42,4 +42,6 @@ nav{
 .list-links li a{
     color: var(--text-secondary-color);
     text-decoration: none;
+    font-weight: var(--menu-text-weight);
+    font-size: 18px;
 }
