@@ -26,3 +26,7 @@ body, img, h1, p, fieldset, legend, label, input, textarea, select, button, ul {
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
