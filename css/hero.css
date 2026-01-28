@@ -1,7 +1,7 @@
 .hero-img{
     height: 400px;
     width: 100%;
-    background: url(../img/bannerhomepage.png) no-repeat;
+    background: url(../img/bannerhomepage.png) no-repeat center;
     background-size: cover;
 }
 
