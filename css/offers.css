@@ -34,3 +34,8 @@
     margin-top: 24px;
     display: inline-block;
 }
+
+.card.japao{
+    background: url(../img/japao.jpg) no-repeat center;
+    background-size: cover;
+}
