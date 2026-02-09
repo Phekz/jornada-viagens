@@ -1,3 +1,10 @@
+.offers-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
 .card{
     color: var(--text-secondary-color);
     background-color: black;
@@ -33,6 +40,26 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
+}
+
+.japao{
+    background: url(../img/japao.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.san-andreas{
+    background: url(../img/san_andreas.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.paraiba{
+    background: url(../img/paraiba.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.manaus{
+    background: url(../img/manaus.jpg) no-repeat center;
+    background-size: cover;
 }
 
 @media screen and (min-width: 1024px){
