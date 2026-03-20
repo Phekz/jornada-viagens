@@ -86,14 +86,12 @@
 }
 
 @media screen and (min-width: 1440px){
+    .offers-cards{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
     .card{
         width: 588px;
-    }
-}
-
-@media screen and (min-width: 1920px){
-    .offers-cards{
-        width: 1250px;
-        margin: 0 auto;
     }
 }
