@@ -58,23 +58,3 @@
 .offers {
     margin-bottom: 104px;
 }
-
-@media screen and (min-width: 768px) {
-    .categories-cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .categories-cards .card {
-        width: 430px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .categories-cards .card {
-        width: 280px;
-    }
-}
