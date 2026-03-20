@@ -87,20 +87,11 @@
 
 @media screen and (min-width: 1440px){
     .offers-cards{
-        width: 100% !important;
-        display: flex !important;
-        flex-wrap: wrap !important;
-        align-items: center !important;
+        width: 1200px;
+        margin: 0 auto;
     }
 
     .card{
-        width: 588px !important;
-    }
-}
-
-@media screen and (min-width: 1920px){
-    .offers-cards{
-        width: 1250px;
-        margin: 0 auto;
+        width: 588px;
     }
 }
