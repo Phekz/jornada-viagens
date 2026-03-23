@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .card{
     color: var(--text-secondary-color);
     background-color: black;
@@ -87,11 +93,21 @@
 
 @media screen and (min-width: 1440px){
     .offers-cards{
-        width: 1200px;
         margin: 0 auto;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
     }
 
     .card{
         width: 588px;
+    }
+
+    .cards-container{
+        display: flex !important;
+        gap: 24px;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: row !important;
     }
 }
