@@ -52,3 +52,58 @@
     background: url(../img/Osaka-mobile.jpg) no-repeat center;
     background-size: cover;
 }
+
+
+@media screen and (min-width: 768px){
+.tokyo{
+    background: url(../img/Tokyo-tablet.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.osaka{
+    background: url(../img/Osaka-tablet.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.item{
+    width: 648px;
+    height: 718px;
+    text-align: left;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.item .button{
+    text-align: center;
+    border-radius: 8px;
+    width: 280px;
+}
+
+.img-item{
+    color: var(--text-secondary-color);
+    width: 648px;
+    height: 452px;
+}
+}
+
+@media screen and (min-width: 1440px){
+    .destination-items{
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        flex-direction: row;
+        gap: 24px;
+        margin: 0 auto;
+    }
+
+    .item{
+        width: 588px;
+        height: 750px;
+    }
+
+    .img-item{
+    width: 588px;
+}
+}
